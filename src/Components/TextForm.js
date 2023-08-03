@@ -3,7 +3,8 @@ import React , {useState} from 'react'
 export default function TextForm(props) {
     const haddleupclick=(event)=> {
         console.log("Upper clicked Was Pressed")
-        setText("I have click upper case button")
+        let newText=text.toUpperCase();
+        setText(newText)
     }
     const haddleOnChange=(event)=> {
         console.log("haddleOnChange ");
