@@ -30,6 +30,11 @@ const haddlecopyclick = (event) => {
 
   console.log('Text copied to clipboard');
 };
+    const handleExtraSpaces =()=>
+    {
+        let newText = text.split(/[ ]+/);
+        setText (newText.join(" "))
+    }
     const haddleOnChange=(event)=> {
         console.log("haddleOnChange ");
         setText(event.target.value)
@@ -47,6 +52,7 @@ const haddlecopyclick = (event) => {
           <button className="btn btn-primary mx-2"onClick={haddledclick} > Convert to LowerCase </button>
           <button className="btn btn-primary mx-2"onClick={haddleClearclick} > Clear Text </button>
           <button className="btn btn-primary mx-2"onClick={haddlecopyclick} > Copy To ClipedBoard </button>
+          <button className="btn btn-primary mx-2"onClick={handleExtraSpaces} > Remove Extra Spaces </button>
  
   </div>
   <div className='container my-3'>
