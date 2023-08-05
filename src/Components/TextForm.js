@@ -42,10 +42,11 @@ const haddlecopyclick = (event) => {
     const [text, setText] = useState( 'Enter text here');
   return (
     <>
-      <div className='container'>
+      <div className="container" style={{color: props.mode==='dark'?'white':'#042743'}}> 
               <div className="mb-3">
           < h1>{props.heading}</h1>
-          <textarea className="form-control" value={text} id='mybox' onChange={haddleOnChange} rows="8"></textarea>
+          <textarea className="form-control" value={text} onChange={haddleOnChange} style={{backgroundColor: props.mode==='dark'?'#13466e':'white', 
+          color: props.mode==='dark'?'white':'#042743'}} id="myBox" rows="8"></textarea>
         
           </div>
           <button className="btn btn-primary mx-2"onClick={haddleupclick} > Convert to Uppercase </button>
@@ -55,7 +56,7 @@ const haddlecopyclick = (event) => {
           <button className="btn btn-primary mx-2"onClick={handleExtraSpaces} > Remove Extra Spaces </button>
  
   </div>
-  <div className='container my-3'>
+  <div className="container my-3" style={{color: props.mode==='dark'?'white':'#042743'}}>
     <h2>Your Text Summary</h2>
     <p>{text.split(" ").length} Words and {text.length} Characters</p>
     <p>{0.008 * text.split(" ").length} Minutes to read </p>
