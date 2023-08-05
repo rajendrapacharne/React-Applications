@@ -5,16 +5,19 @@ export default function TextForm(props) {
         console.log("Upper clicked Was Pressed")
         let newText=text.toUpperCase();
         setText(newText)
+        props.showAlert("Converted To UpperCaase","Success");
     };
     const haddledclick=(event)=> {
       console.log("Lowercase clicked Was Pressed")
       let newText=text.toLowerCase();
+      props.showAlert("Converted To LowerCase","Success");
       setText(newText)
   };
   const haddleClearclick=(event)=> {
     console.log("haddleClearclick clicked Was Pressed")
     let newText='';
     setText(newText)
+    props.showAlert("Text Cleared","Success");
 };
 const haddlecopyclick = (event) => {
   // Create a new ClipboardJS instance
@@ -27,12 +30,13 @@ const haddlecopyclick = (event) => {
 
   // Destroy the ClipboardJS instance to clean up
   clipboard.destroy();
-
+  props.showAlert("Text Copied","Success");
   console.log('Text copied to clipboard');
 };
     const handleExtraSpaces =()=>
     {
         let newText = text.split(/[ ]+/);
+        props.showAlert("Extra Space Removed","Success");
         setText (newText.join(" "))
     }
     const haddleOnChange=(event)=> {
@@ -61,7 +65,7 @@ const haddlecopyclick = (event) => {
       <p>{text.split(" ").length} Words and {text.length} Characters</p>
       <p>{0.008 * text.split(" ").length} Minutes to read </p>
       <h2>Preview</h2>
-      <p>{text}</p>
+      <p>{text.length>0?text:"Nothing to preview!"}</p>
     </div>
   </>
   )
