@@ -53,16 +53,16 @@ const haddlecopyclick = (event) => {
           color: props.mode==='dark'?'white':'#042743'}} id="myBox" rows="8"></textarea>
         
           </div>
-          <button className="btn btn-primary mx-2"onClick={haddleupclick} > Convert to Uppercase </button>
-          <button className="btn btn-primary mx-2"onClick={haddledclick} > Convert to LowerCase </button>
-          <button className="btn btn-primary mx-2"onClick={haddleClearclick} > Clear Text </button>
-          <button className="btn btn-primary mx-2"onClick={haddlecopyclick} > Copy To ClipedBoard </button>
-          <button className="btn btn-primary mx-2"onClick={handleExtraSpaces} > Remove Extra Spaces </button>
+          <button className="btn btn-primary mx-2 my-2"onClick={haddleupclick} > Convert to Uppercase </button>
+          <button className="btn btn-primary mx-2 my-2"onClick={haddledclick} > Convert to LowerCase </button>
+          <button className="btn btn-primary mx-2 my-2"onClick={haddleClearclick} > Clear Text </button>
+          <button className="btn btn-primary mx-2 my-2"onClick={haddlecopyclick} > Copy To ClipedBoard </button>
+          <button className="btn btn-primary mx-2 my-2"onClick={handleExtraSpaces} > Remove Extra Spaces </button>
  
   </div>
   <div className="container my-3" style={{color: props.mode==='dark'?'white':'#042743'}}>
       <h2>Your Text Summary</h2>
-      <p>{text.split(" ").length} Words and {text.length} Characters</p>
+      <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
       <p>{0.008 * text.split(" ").length} Minutes to read </p>
       <h2>Preview</h2>
       <p>{text.length>0?text:"Nothing to preview!"}</p>

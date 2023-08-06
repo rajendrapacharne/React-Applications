@@ -15,7 +15,7 @@ export default function NavBar(props) {
           <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="/">{props.about} <span className="sr-only">(current)</span></a>
+          <a className="nav-link" href="/about">{props.about} <span className="sr-only">(current)</span></a>
         </li>
         <li className="nav-item active">
           <a className="nav-link" href="/">Contact <span className="sr-only">(current)</span></a>
