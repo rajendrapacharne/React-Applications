@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rajendrapacharne.github.io/Textutils.com/static/css/main.073c9b0a.css",
-    "main.js": "/rajendrapacharne.github.io/Textutils.com/static/js/main.2d4d5010.js",
-    "static/js/787.b0e29ad6.chunk.js": "/rajendrapacharne.github.io/Textutils.com/static/js/787.b0e29ad6.chunk.js",
-    "index.html": "/rajendrapacharne.github.io/Textutils.com/index.html",
-    "main.073c9b0a.css.map": "/rajendrapacharne.github.io/Textutils.com/static/css/main.073c9b0a.css.map",
-    "main.2d4d5010.js.map": "/rajendrapacharne.github.io/Textutils.com/static/js/main.2d4d5010.js.map",
-    "787.b0e29ad6.chunk.js.map": "/rajendrapacharne.github.io/Textutils.com/static/js/787.b0e29ad6.chunk.js.map"
+    "main.css": "/rajendrapacharne.github.io/React-Applications/static/css/main.073c9b0a.css",
+    "main.js": "/rajendrapacharne.github.io/React-Applications/static/js/main.88a6cb22.js",
+    "static/js/787.b0e29ad6.chunk.js": "/rajendrapacharne.github.io/React-Applications/static/js/787.b0e29ad6.chunk.js",
+    "index.html": "/rajendrapacharne.github.io/React-Applications/index.html",
+    "main.073c9b0a.css.map": "/rajendrapacharne.github.io/React-Applications/static/css/main.073c9b0a.css.map",
+    "main.88a6cb22.js.map": "/rajendrapacharne.github.io/React-Applications/static/js/main.88a6cb22.js.map",
+    "787.b0e29ad6.chunk.js.map": "/rajendrapacharne.github.io/React-Applications/static/js/787.b0e29ad6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.2d4d5010.js"
+    "static/js/main.88a6cb22.js"
   ]
 }
