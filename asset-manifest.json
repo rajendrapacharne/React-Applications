@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rajendrapacharne.github.io/React-Applications/static/css/main.073c9b0a.css",
-    "main.js": "/rajendrapacharne.github.io/React-Applications/static/js/main.88a6cb22.js",
+    "main.js": "/rajendrapacharne.github.io/React-Applications/static/js/main.d5e59e30.js",
     "static/js/787.b0e29ad6.chunk.js": "/rajendrapacharne.github.io/React-Applications/static/js/787.b0e29ad6.chunk.js",
     "index.html": "/rajendrapacharne.github.io/React-Applications/index.html",
     "main.073c9b0a.css.map": "/rajendrapacharne.github.io/React-Applications/static/css/main.073c9b0a.css.map",
-    "main.88a6cb22.js.map": "/rajendrapacharne.github.io/React-Applications/static/js/main.88a6cb22.js.map",
+    "main.d5e59e30.js.map": "/rajendrapacharne.github.io/React-Applications/static/js/main.d5e59e30.js.map",
     "787.b0e29ad6.chunk.js.map": "/rajendrapacharne.github.io/React-Applications/static/js/787.b0e29ad6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.88a6cb22.js"
+    "static/js/main.d5e59e30.js"
   ]
 }
